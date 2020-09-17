@@ -1,4 +1,3 @@
-require "pry"
 
 def sort_array_asc(n)
   n.sort
@@ -8,9 +7,8 @@ def sort_array_desc(n)
   n.sort {|a, b| b <=> a}
 end
 
-def sort_array_char_count
-  binding.pry
-
+def sort_array_char_count(array)
+  array.sort_by.count
 end
 
 def swap_elements
