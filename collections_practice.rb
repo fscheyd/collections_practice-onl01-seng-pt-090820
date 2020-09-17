@@ -1,5 +1,5 @@
 def sort_array_asc(n)
-  
+  n.sort
 end
 
 def sort_array_desc
