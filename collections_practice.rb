@@ -8,6 +8,7 @@ end
 
 def sort_array_char_count(char)
   char.sort_by! do length
+  end
 end
 
 def swap_elements
