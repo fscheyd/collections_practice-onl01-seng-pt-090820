@@ -13,6 +13,7 @@ end
 
 def swap_elements(array)
   array.sort do {array[0, 1, 2,] = array[0, 2, 1]}
+  end
 end
 
 def reverse_array
