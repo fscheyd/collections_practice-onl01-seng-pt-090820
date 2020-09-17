@@ -6,9 +6,9 @@ def sort_array_desc(n)
   n.sort {|a, b| b <=> a}
 end
 
-def sort_array_char_count(char)
-  char.sort_by! do length
-  end
+def sort_array_char_count
+  binding.pry
+
 end
 
 def swap_elements
