@@ -1,4 +1,4 @@
-requires "pry"
+require "pry"
 
 def sort_array_asc(n)
   n.sort
